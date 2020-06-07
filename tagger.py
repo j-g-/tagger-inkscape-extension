@@ -30,9 +30,8 @@ class Tagger(inkex.EffectExtension):
         """
         for elId in self.svg.selected: 
             el = self.svg.getElementById(elId)
-            if el.tag_name is "text":
-                el.set("name","editable")
-                el.set("class","editable")
+            el.set("name","editable")
+            el.set("class","editable")
             
 
             
