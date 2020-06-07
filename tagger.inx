@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+	<_name>Tagger</_name>
+	<id>net.jc-g.effect.tagger</id>
+	<effect>
+	<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Document"/> <!-- which menu under Extensions -->
+		</effects-menu>
+	</effect>
+	<!-- py file again -->
+	<script>
+		<command reldir="extensions" interpreter="python">tagger.py</command>
+	</script>
+</inkscape-extension>
+
